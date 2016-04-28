@@ -22,12 +22,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="350">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+              <folding>
+                <element signature="e#1666#1667#0" expanded="true" />
+                <element signature="e#1708#1709#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rental.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rental.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rental.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="564">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               <folding>
                 <element signature="e#222#223#0" expanded="true" />
                 <element signature="e#255#256#0" expanded="true" />
@@ -120,8 +123,8 @@
         <option value="$PROJECT_DIR$/test/CustomerTest.java" />
         <option value="$PROJECT_DIR$/test/MovieTest.java" />
         <option value="$PROJECT_DIR$/test/RentalTest.java" />
-        <option value="$PROJECT_DIR$/src/Customer.java" />
         <option value="$PROJECT_DIR$/src/Rental.java" />
+        <option value="$PROJECT_DIR$/src/Customer.java" />
       </list>
     </option>
   </component>
@@ -603,23 +606,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Rental.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="564">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding>
             <element signature="e#222#223#0" expanded="true" />
             <element signature="e#255#256#0" expanded="true" />
             <element signature="e#285#286#0" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
           </folding>
         </state>
       </provider>
