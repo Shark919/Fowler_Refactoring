@@ -28,8 +28,8 @@ class Customer {
             frequentRenterPoints += each.getFrequentRenterPoints();
 
             //show figures for this rental
-            result += "\t" + each.getMovie().getTitle()+ "\t" + "\t" + each.getDaysRented() + "\t" + String.valueOf(each.getCharge()) + "\n";
-            totalAmount += each.getCharge();
+            result += "\t" + each.getMovie().getTitle()+ "\t" + "\t" + each.getDaysRented() + "\t" + String.valueOf(each.movie.getCharge(each)) + "\n";
+            totalAmount += each.movie.getCharge(each);
         }
         //add footer lines
         result += "Amount owed is " + String.valueOf(getTotalCharge()) + "\n";
@@ -48,7 +48,7 @@ class Customer {
     }
 
     private double amountFor(Rental aRental){
-        return aRental.getCharge();
+        return aRental.movie.getCharge(aRental);
     }
 
     private double getTotalCharge() {
@@ -56,7 +56,7 @@ class Customer {
         Enumeration rentals = this.rentals.elements();
         while (rentals.hasMoreElements()) {
             Rental each = (Rental) rentals.nextElement();
-            result += each.getCharge();
+            result += each.movie.getCharge(each);
         }
         return result;
     }
