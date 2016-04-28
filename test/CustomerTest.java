@@ -7,16 +7,17 @@ import static org.junit.Assert.*;
  */
 public class CustomerTest {
     Customer customer = new Customer("TestCustomer");
-    Movie movie = new Movie("TestMovie", 1234);
+    Movie movie = new Movie("TestMovie", 2);
     Rental rental = new Rental(movie, 42);
 
     @Test
     public void addRental() throws Exception {
         customer.addRental(rental);
+        System.out.print(customer.statement());
         assertEquals(customer.statement(), "Rental Record for TestCustomer\n" +
                 "\tTitle\t\tDays\tAmount\n" +
-                "\tTestMovie\t\t42\t0.0\n" +
-                "Amount owed is 0.0\n" +
+                "\tTestMovie\t\t42\t60.0\n" +
+                "Amount owed is 60.0\n" +
                 "You earned 1 frequent renter points");
     }
 
@@ -31,8 +32,8 @@ public class CustomerTest {
         customer.addRental(rental);
         assertEquals(customer.statement(), "Rental Record for TestCustomer\n" +
                 "\tTitle\t\tDays\tAmount\n" +
-                "\tTestMovie\t\t42\t0.0\n" +
-                "Amount owed is 0.0\n" +
+                "\tTestMovie\t\t42\t60.0\n" +
+                "Amount owed is 60.0\n" +
                 "You earned 1 frequent renter points");
     }
 
