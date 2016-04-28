@@ -20,6 +20,7 @@ public class CustomerTest {
                 "You earned 1 frequent renter points");
     }
 
+
     @Test
     public void getName() throws Exception {
         assertEquals(customer.getName(), "TestCustomer");

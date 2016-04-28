@@ -20,6 +20,7 @@ public class MovieTest {
         assertEquals(movie.getPriceCode(), 20);
     }
 
+
     @Test
     public void getTitle() throws Exception {
         assertEquals(movie.getTitle(),"TestMovie");

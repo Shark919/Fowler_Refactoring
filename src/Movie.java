@@ -8,6 +8,7 @@ public class Movie {
         title = newtitle;
         priceCode = newpriceCode;
     }
+
     public int getPriceCode() {
         return priceCode;
     }
