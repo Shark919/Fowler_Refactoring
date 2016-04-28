@@ -17,6 +17,6 @@ public class RentalTest {
     public void getMovie() throws Exception {
         assertEquals(rental.getMovie(),movie);
     }
-    
+
 
 }
