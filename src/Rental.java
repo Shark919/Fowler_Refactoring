@@ -18,6 +18,6 @@ class Rental {
     }
 
     double getCharge(){
-        return this.movie.getCharge(this.daysRented);
+        return this.movie.price.getCharge(this.daysRented);
     }
 }
